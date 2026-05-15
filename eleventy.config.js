@@ -1,5 +1,6 @@
 module.exports = (config) => {
   config.addPassthroughCopy('src/assets/img/**/*');
+  config.addPassthroughCopy('src/assets/css/main.css');
   config.addPassthroughCopy({ 'src/posts/img/**/*': 'assets/img/' });
 
   config.addWatchTarget("src/assets/js/");

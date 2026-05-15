@@ -82,6 +82,9 @@ typings/
 .nuxt
 dist
 
+# Tailwind compiled output (built locally, copied by Eleventy)
+src/assets/css/main.css
+
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and *not* Next.js
